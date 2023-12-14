@@ -1,0 +1,10 @@
+spring:
+  docker:
+    compose:
+      stop:
+        command: down
+
+flagd:
+  host: localhost
+  port: 8013
+  tls: false

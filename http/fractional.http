@@ -1,0 +1,34 @@
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=not_work@11stcorp.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=1@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=2@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=3@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=4@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=5@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=6@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=7@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=8@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=9@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=10@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=11@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=12@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=13@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=14@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=15@faas.com
+###
+GET {{baseUrl}}/api/flags/headerColorByEmail?email=16@faas.com
+###

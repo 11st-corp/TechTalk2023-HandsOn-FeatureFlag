@@ -1,0 +1,16 @@
+version: "3.8"
+name: "flagd"
+services:
+  flagd:
+    image: ghcr.io/open-feature/flagd:latest
+    ports:
+      - "8013:8013"
+    command:
+      - start
+      - --cors-origin
+      - '*'
+      - --sources
+      - '[{ "uri": "./flags.yaml", "provider": "file" }]'
+    working_dir: /flags
+    volumes:
+      - "./src/main/resources:/flags"
